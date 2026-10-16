@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+artifacts/
+assets/phone-scene.min.js
+assets/phone-scene.min.js.LEGAL.txt

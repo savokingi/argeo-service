@@ -1,0 +1,19 @@
+{
+  "name": "argeo-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ARGEO Service — сайт мастерской по ремонту техники в Ульяновске",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/bundle.mjs",
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node --check phone-scene.js && node --check scripts/bundle.mjs && node --check scripts/build.mjs && node --check scripts/serve.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
